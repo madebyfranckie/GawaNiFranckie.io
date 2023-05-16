@@ -1,0 +1,187 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body{
+	font-family: 'Castoro Titling', cursive;
+}
+.navbar{
+display:flex;
+align-items: center;
+padding:20px;
+}
+nav{
+flex:1;
+text-align: right;
+}
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+
+nav ul li{
+display: inline-block;
+margin-right:20px;
+}
+a{
+text-decoration: none;
+color: 555#;
+}
+p{
+color:555#;
+}
+.container{
+max-width:1300px;
+margin:auto;
+padding-left: 25;
+padding-right:25px;
+}
+.row{
+display:flex;
+align-items: center;
+flex-wrap: warp;
+justify-content: space-around;
+}
+.col-2{
+flex-basis:50%;
+min-width:00px;
+}
+.col-2 img{
+max-width:100%;
+padding: 50px 0;
+}
+.col-2 h1{
+font-size: 70px;
+line-height: 60px;
+margin: 25px 0;
+}
+.btn{
+	display: inline-block;
+	background:#75816b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	
+}
+.btn:hover{
+	background:#000;
+}
+.header{
+	background: radial-gradient(#fff,ffd6d6);
+}
+.header row{
+margin-top: 70px;
+}
+.categories{
+	margin: 70px 0;
+}
+.col-3{
+	flex-basis: 30%;
+	min-width: 750px;
+	margin-bottom:30px;
+}
+.col-3 img{
+	width: 100%;
+}
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.logo img {
+  width: 125px;
+}
+
+
+nav{
+	background: #262626;
+	height: 80px;
+	width: 100%;
+}
+
+nav ul{
+	float: right;
+	margin-right:20px;
+}
+nav ul li{ 
+	display:inline-block;
+	line-height:80px;
+	margin: 0 5px; 
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body
+{
+margin: 0;
+padding: 0;
+animation: bgcolor infinite 20s;
+}
+
+@keyframes bgcolor{
+0%
+{
+background:#ECF0F1 ;
+}
+20%
+{
+background:#34495E ;
+}
+40%
+{
+background:#7F8C8D;
+}
+60%
+{
+background:#95A5A6 ;
+}
+80%
+{
+background:#BDC3C7;
+}
+100%
+{
+background:#ECF0F1;
+}
